@@ -11,7 +11,7 @@ abertas de uma vez e servindo como estudo de tecnologias web
 <hr>
 
 <h3>O Sistema deve ter</h3>
-- Uma interface agradavel e de facil esalabilidade
-- Uma playlist de musicas de ambiente
-- Links importantes (google drive, deepseek, youtube, github, etc)
-- Local de destaque de tarefas importantes
+- Uma interface agradavel e de facil esalabilidade <br>
+- Uma playlist de musicas de ambiente <br>
+- Links importantes (google drive, deepseek, youtube, github, etc) <br>
+- Local de destaque de tarefas importantes <br>
