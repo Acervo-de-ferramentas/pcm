@@ -1,5 +1,5 @@
 
-<h1>Painel de Controle Mestre (PCM)  </h1>
+<h1>Painel de Controle Mestre (PCM) 🧮 </h1>
 
 <hr>
 
