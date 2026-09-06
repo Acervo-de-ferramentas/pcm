@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+
+    font-family: 'Spectral';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top left,
+    #ff7f50,
+    #ffc4ae,
+    #fff0ea);
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.titulo{
+
+    position: absolute;
+    left: 0;
+    width: 30%;
+    margin: 40px;
+    border-left: 3px solid;
+    padding: 20px;
+
+}
+
+hr{
+
+    height: 5px;
+    color: black;
+    background-color: black;
+
+}
+
+.main{
+
+    margin-top: 30px;
+    height: 90%;
+    width: 45%;
+    border-left: 3px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container{
+
+    width: 80%;
+    border-bottom: 3px solid;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    overflow-x: scroll;
+    background-image: linear-gradient(to top,
+    #fff0ea,
+    #fff0ea00);
+    padding: 20px 10px;
+
+}
+
+#links a{
+
+    text-decoration: overline;
+    color: #2d69a1;
+    transition: 0.5s ease-in-out;
+    padding: 3px;
+}
+
+#links a:hover{
+
+    color: #488ecf;
+    background-color: #ffe8df;
+    filter: drop-shadow(5px 5px 10px #488ecf);
+
+
+}
+
+.container::-webkit-scrollbar{
+
+    display: none;
+
+}
+
+#afazeres{
+
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 70px;
+
+}
+
+.afazeres_header{
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+#afazeres ol{
+
+    width: 60%;
+
+}
+
+h4{
+
+    max-width: 30%;
+
+}
+
+li{
+
+    margin-bottom: 8px;
+
+}
+
+.afazer{
+
+    width: 100%;
+    padding: 5px;
+    background-color: #488ecf;
+    border-radius: 5px;
+    font-size: 14pt;
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmar{
+
+    height: 30px;
+    width: 30px;
+    background-color: #ff5050;
+    border-radius: 5px;
+    transition: 0.2s;
+
+}
+
+.confirmar:hover{
+
+    transform: scale(1.1);
+    background-color: #f07e7e;
+
+}
+
+.confirmado{
+
+    height: 30px;
+    width: 30px;
+    background-color: #4be924;
+    border-radius: 5px;
+    transition: 0.2s;
+
+}
+
+.confirmado:hover{
+
+    transform: scale(1.1);
+    background-color: #a2ec8f;
+
+}
+
